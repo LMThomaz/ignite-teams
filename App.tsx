@@ -5,8 +5,8 @@ import {
   useFonts,
 } from '@expo-google-fonts/roboto'
 import { StatusBar } from 'react-native'
-import { Routes } from 'src/routes'
 import { ThemeProvider } from 'styled-components'
+import { Routes } from './src/routes'
 import theme from './src/theme'
 
 export default function App() {
